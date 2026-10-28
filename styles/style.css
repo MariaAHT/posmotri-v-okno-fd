@@ -81,6 +81,7 @@ video {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 2px;
 }
 
 .result__video {
@@ -159,6 +160,7 @@ video {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
+  padding-bottom: 15px;
 }
 
 .search-form__pseudo-checkbox {
@@ -216,7 +218,7 @@ video {
 }
 
 .title {
-  padding: 0 0 26px;
+  padding-top: 15px;
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -233,7 +235,7 @@ video {
 .content__list {
   position: relative;
   overflow-y: scroll;
-  block-size: 298px;
+  block-size: 290px;
   overflow: auto;
 }
 
@@ -248,7 +250,8 @@ video {
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 34px;
+  margin: 0 0 6px;
+  padding-top: 20px;
 }
 
 .content__card-link {
