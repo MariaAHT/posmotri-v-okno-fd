@@ -248,7 +248,7 @@ video {
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 34px;
+  margin: 0 0 30px;
 }
 
 .content__card-link {
@@ -312,6 +312,7 @@ video {
   block-size: 103px;
   object-fit: cover;
   object-position: center;
+
 }
 
 .custom-scrollbar::-webkit-scrollbar {
