@@ -111,9 +111,6 @@ video {
   cursor: pointer;
 }
 
-.search-form__label:hover {
-  text-decoration: underline 1px #FFF;
-}
 
  .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
@@ -248,13 +245,14 @@ video {
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 30px;
+  margin: 0 0 30px;*
 }
 
 .content__card-link {
   display: block;
   margin: 2px;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .content__card-link:active {
@@ -294,6 +292,7 @@ video {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  max-width: 196px;
 }
 
 .content__video-card-description {
