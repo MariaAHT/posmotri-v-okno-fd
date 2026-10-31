@@ -115,7 +115,7 @@ video {
 }
 
  .search-form__label:hover .search-form__label-text {
-  text-underline-offset: 5px;
+  text-decoration: underline;
  }
 
 .search-form__label:has(:focus-visible) {
@@ -216,7 +216,7 @@ video {
 }
 
 .title {
-  padding: 0 0 26px;
+  padding: 0 0 20px;
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -232,14 +232,13 @@ video {
 
 .content__list {
   position: relative;
-  overflow-y: scroll;
-  block-size: 298px;
   overflow: auto;
 }
 
 .content__list-container {
   position: relative;
   overflow-y: scroll;
+  block-size: 298px;
 }
 
 
@@ -292,7 +291,7 @@ video {
   text-transform: uppercase;
   hyphens: auto;
   white-space: nowrap;
-  word-break: break-all;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -305,7 +304,6 @@ video {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden; 
-  max-height: calc(4 * var(--line-height));
 }
 
 .content__video-card-thumbnail {
@@ -313,4 +311,16 @@ video {
   block-size: 103px;
   object-fit: cover;
   object-position: center;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgb(217 217 217 / 10%);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #D9D9D9;
 }
