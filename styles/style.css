@@ -81,6 +81,7 @@ video {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 5px;
 }
 
 .result__video {
